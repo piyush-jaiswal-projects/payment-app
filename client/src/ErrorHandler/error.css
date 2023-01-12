@@ -1,0 +1,43 @@
+.comp-error{
+    width: 95vw;
+    border: 1px dotted red;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(250, 166, 166, 0.295);
+    color: red;
+}
+
+.fallback-error{
+    height: 98vh;
+    width: 99vw;
+    margin: auto;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    background-color: rgba(252, 231, 231, 0.986);
+    text-align: center;
+}
+
+.error-info{
+    margin: auto;
+    padding: 1rem;
+    /* background-color: pink; */
+    width: 35vw;
+    height: 15vh;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.error-img{
+    width: 5rem;
+    margin-bottom: 0;
+}
+
+.error-tagline{
+    margin-bottom: 0;
+}
+
+.error-desc{
+    margin: 0;
+    font-weight: light;
+}

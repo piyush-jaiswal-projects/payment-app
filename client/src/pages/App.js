@@ -1,9 +1,12 @@
 import Landing from "../components/Landing/landing.jsx";
+import EB from "../ErrorHandler/errorhandling.js";
 
 function App() {
   return (
     <div className="App">
-      <Landing />
+
+    <EB type="component"> <Landing /> </EB>
+
     </div>
   );
 }
