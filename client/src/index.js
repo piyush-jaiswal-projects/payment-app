@@ -22,7 +22,7 @@ root.render(
   />
 
   <Route
-  path="payment"
+  path="/payment"
   element={
     <EB> <Payment /> </EB>
   }
