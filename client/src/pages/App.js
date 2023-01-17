@@ -4,7 +4,6 @@ import EB from "../ErrorHandler/errorhandling.js";
 function App() {
   return (
     <div className="App">
-
     <EB type="component"> <Landing /> </EB>
 
     </div>

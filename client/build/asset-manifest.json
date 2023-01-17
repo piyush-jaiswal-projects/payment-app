@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9cf3585.css",
+    "main.js": "/static/js/main.f4de3b25.js",
+    "static/media/poverty.jpg": "/static/media/poverty.0205dd5a11da76bbd346.jpg",
+    "static/media/error.png": "/static/media/error.8a66ab1972e56fe57963.png",
+    "index.html": "/index.html",
+    "main.c9cf3585.css.map": "/static/css/main.c9cf3585.css.map",
+    "main.f4de3b25.js.map": "/static/js/main.f4de3b25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9cf3585.css",
+    "static/js/main.f4de3b25.js"
+  ]
+}
