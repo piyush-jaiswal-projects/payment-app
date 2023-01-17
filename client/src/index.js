@@ -29,7 +29,7 @@ root.render(
   />
 
 <Route
-  path="*"
+  path="/*"
   element={
     <EB> <NotFound /> </EB>
   }
