@@ -1,18 +1,16 @@
 import React from "react";
-
 import "./landing.css";
-import Poverty from "../../media/poverty.jpg";
+import PaymentForm from "../PaymentForm/paymentForm";
+import BackgroundImg from "../../media/bg2.jpg";
 
 export default function Landing(){
     return(
         <div className="landing-sec">
-        <div className="info-div">
-        <h1>CHANGE THE LIFE OF THOSE
-        <br></br>
-        WHO HAVE NO <b className="yellow">HOPE</b></h1>
-        <button className="donate-btn">Donate</button>
+        <div className="form"><PaymentForm /></div>
+        <div className="bg-layer"></div>
+        <div className="background">
+            <img src={BackgroundImg} alt=" "></img>
         </div>
-        <img src={Poverty} alt="Poverty" className="poverty-img"></img>
         </div>
     );
 }

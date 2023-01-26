@@ -4,7 +4,6 @@ import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 
 import './global.css';
 import App from './pages/App.js';
-import Payment from './pages/Payment.js';
 import NotFound from './pages/404.js';
 import EB from "./ErrorHandler/errorhandling.js";
 
@@ -18,13 +17,6 @@ root.render(
   path="/"
   element={
     <EB> <App /> </EB>
-  }
-  />
-
-  <Route
-  path="/payment"
-  element={
-    <EB> <Payment /> </EB>
   }
   />
 

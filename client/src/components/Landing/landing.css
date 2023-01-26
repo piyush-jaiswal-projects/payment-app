@@ -1,104 +1,69 @@
-.landing-sec{
-    overflow: hidden;
-}
-
-.poverty-img{
-    width: 100%;
+.background, .bg-layer{
     height: 100vh;
-    margin: 0;
-    filter: blur(90%);
-    filter: opacity(0.7);
-    filter: brightness(0.3);
+    width: 100vw;
+    position: absolute;
 }
 
-.info-div{
-    position: fixed;
-    z-index: 1000;
-    margin: auto;
-    text-align: center;
-    top: 160px;
-    left: 230px;
+.bg-layer{
+    z-index: +5;
+    background-color: rgba(128, 128, 128, 0.336);
 }
 
-.info-div h1{
-    color: white;
-    font-size: 50px;
-    margin-bottom: 10px;
+.background img{
+    width: 100%;
+    filter: invert(95%);
 }
 
-.yellow{
-    color: yellow;
+.form{
+    position: absolute;
+    z-index: +1000;
+    top: 5%;
+    left: 35%;
+    height: 90vh;
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: white;
 }
 
-.donate-btn{
-    margin-top: 0;
-    padding: 0.8rem 1rem;
-    background-color: yellow;
-    border: none;
-    width: 150px;
-    font-size: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.donate-btn:hover{
-    background-color: black;
-    color: yellow;
-}
-
-@media screen and (min-width: 320px) and (max-width: 650px) {
-    .poverty-img{
-        width: auto;
-    }
-
-    .info-div{
-        top: 50px;
-        left: 10px;
+@media screen and (max-width: 1200px) {
+    .form{
+        width: 35vw;
+        left: 32.5%;
     }
 }
 
-@media screen and (min-width: 768px) {
-    .poverty-img{
-        width: auto;
-    }
-
-    .info-div{
-        top: 100px;
-        left: 10px;
+@media screen and (max-width: 900px) {
+    .form{
+        width: 40vw;
+        left: 30%;
     }
 }
 
-@media screen and (min-width: 900px) {
-    .poverty-img{
-        width: auto;
-    }
-
-    .info-div{
-        top: 100px;
-        left: 50px;
+@media screen and (max-width: 768px) {
+    .form{
+        width: 50vw;
+        left: 25%;
     }
 }
 
-@media screen and (min-width: 1024px){
-    .poverty-img{
-        width: 100%;
-    }
-
-
-    .info-div{
-        top: 130px;
-        left: 220px;
+@media screen and (max-width: 600px) {
+    .form{
+        width: 60vw;
+        left: 20%;
     }
 }
 
-@media screen and (min-width: 1200px){
-    .poverty-img{
-        width: 100%;
+@media screen and (max-width: 500px) {
+    .form{
+        width: 70vw;
+        left: 15%;
     }
+}
 
-
-    .info-div{
-        top: 130px;
-        left: 250px;
+@media screen and (max-width: 400px) {
+    .form{
+        width: 80vw;
+        left: 10%;
     }
 }
