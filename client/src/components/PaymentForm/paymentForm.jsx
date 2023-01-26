@@ -1,9 +1,11 @@
 import React from "react";
 import "./paymentForm.css";
+import CompanyInfo from "../CompanyInfo/companyInfo";
 
 export default function PaymentForm(){
     return(
         <div className="payment-form">
+        <CompanyInfo />
         <div className="wrapper">
         <form>
             <input type="text" placeholder="Name"></input>
