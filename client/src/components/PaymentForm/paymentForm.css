@@ -1,0 +1,48 @@
+.payment-form{
+    padding: 15px;
+}
+
+.payment-form input{
+    width: 95%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgb(221, 234, 245);
+    height: 50px;
+    margin: 5px;
+}
+
+.payment-form button{
+    margin: 5px;
+    width: 97%;
+    text-align: center;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(221, 234, 245);
+    background-color: rgb(40, 148, 241);
+    color: white;
+    font-weight: 700;
+}
+
+.payment-form input:focus{
+    outline: none;
+    border: 1px solid rgb(40, 148, 241);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    /* width: 80%; */
+}
+
+.disable-cursor{
+    cursor: not-allowed;
+}
+
+.powered{
+    margin: 2%;
+    text-align: center;
+}
